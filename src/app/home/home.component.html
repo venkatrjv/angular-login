@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Login User data</h2>
+  <div class="panel panel-default">
+    <div class="panel-body">{{user?.first_name}}</div>
+    <div class="panel-body">{{user?.last_name}}</div>
+    <div class="panel-body">{{user?.email}}</div>
+    <div class="panel-body">
+      <span [appFormatNumber]="user?.phone"></span>
+    </div>
+  </div>
+</div>
